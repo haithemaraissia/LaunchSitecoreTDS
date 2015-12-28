@@ -20,6 +20,8 @@ namespace LaunchSitecore.Models
     public string Title
     {
       get { return InnerItem[FieldId.Title]; }
+        // get { return InnerItem.GlassCast<LaunchContent.LaunchSitecore.Base_Templates.Title_Abstract_And_Text>().Title; }
+        // this is generally bad, as it'll map the entire class, just for this field. Typically map the class in the constructor, then use each property.
     }
 
     public string MenuTitle
