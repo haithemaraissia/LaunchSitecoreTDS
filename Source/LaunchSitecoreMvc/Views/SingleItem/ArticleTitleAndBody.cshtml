@@ -1,4 +1,11 @@
-﻿<article>
- <h1>@Html.Sitecore().Field("Title")</h1>
- @Html.Sitecore().Field("Body")
-</article>
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<LaunchContent.LaunchSitecore.Article_Group>
+
+    @*<article>
+        <h1>@Html.Sitecore().Field("Title")</h1>
+        @Html.Sitecore().Field("Body")
+    </article>*@
+
+    <article>
+        <h1>@Editable(x => x.Title)</h1>
+        @Editable(Model, x => x.Body)
+    </article>
