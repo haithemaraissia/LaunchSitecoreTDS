@@ -92,10 +92,6 @@
       <HintPath>..\packages\Sitecore.Analytics.Model.8.1.0.160302\lib\Sitecore.Analytics.Model.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Client.8.1.0.160302\lib\Sitecore.Client.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.ContentSearch.8.1.0.160302\lib\Sitecore.ContentSearch.dll</HintPath>
       <Private>True</Private>
@@ -110,10 +106,6 @@
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.ExperienceEditor.Speak.8.1.0.160302\lib\Sitecore.ExperienceEditor.Speak.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.8.1.0.160302\lib\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Logging, Version=1.2.0.30715, Culture=neutral, processorArchitecture=MSIL">
