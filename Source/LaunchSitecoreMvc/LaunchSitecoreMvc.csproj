@@ -92,10 +92,6 @@
       <HintPath>..\packages\Sitecore.Analytics.Model.8.1.0.160302\lib\Sitecore.Analytics.Model.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Client, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Client.8.1.0.160302\lib\Sitecore.Client.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sitecore.ContentSearch.8.1.0.160302\lib\Sitecore.ContentSearch.dll</HintPath>
       <Private>True</Private>
